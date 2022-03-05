@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   ///[_Primary Colors]
-  static const Color primaryColor = Color(0xff643691);
+  static const Color primaryColor = Color(0xff6925A6);
   // static const Color secondaryColor = Color(0xff0DB0E3);
 
   ///[_System Colors]
@@ -14,6 +14,7 @@ class AppColors {
   static const Color systemRedColor = Color(0xffF63535);
   static const Color profileInfoLinesColor = Color(0xffEFF2F7);
   static const Color inactiveColor = Color(0xffafb2b5);
+  static const Color whiteColor = Colors.white;
 
   ///[_Divider]
   static const Color dividerColor = Color(0xffE9E9E9);
@@ -36,9 +37,29 @@ class AppSvgImages {
   static const String onboarding_1 = "assets/images/svg/onboarding_1.svg";
   static const String onboarding_2 = "assets/images/svg/onboarding_2.svg";
   static const String onboarding_3 = "assets/images/svg/onboarding_3.svg";
+  static const String search_ic = "assets/images/svg/search_ic.svg";
+  static const String search_active_ic =
+      "assets/images/svg/search_active_ic.svg";
+  static const String tourhunter_ic = "assets/images/svg/tourhunter_ic.svg";
+  static const String tourhunter_active_ic =
+      "assets/images/svg/tourhunter_active_ic.svg";
+  static const String myTour_ic = "assets/images/svg/my_tour_ic.svg";
+  static const String myTour_active_ic =
+      "assets/images/svg/my_tour_active_ic.svg";
+  static const String profile_ic = "assets/images/svg/profile_ic.svg";
+  static const String profile_active_ic =
+      "assets/images/svg/profile_active_ic.svg";
+  static const String zhurek_ic = 'assets/images/svg/zhurek.svg';
 
   ///[_NavBar]
 
+}
+
+class AppRiveAnimations {
+  static const String onboarding_tourhunter_riv =
+      'assets/riv/tour_hunter_onboarding.riv';
+      static const String onboarding_my_tour_riv =
+      'assets/riv/my_tour_onboarding.riv';
 }
 
 class AppPngPaths {}

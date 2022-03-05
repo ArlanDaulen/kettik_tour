@@ -49,7 +49,8 @@ class MyAppModel extends BaseBloc {
   Widget getHomeScreen() {
     log("isAuthed: $isAuthenticated");
     if (!_isAuthenticated) {
-      return const LoginScreen();
+      return const IndexScreen();
+      // return const LoginScreen();
     }
     if (isOnboardingSkipped) {
       return const IndexScreen();

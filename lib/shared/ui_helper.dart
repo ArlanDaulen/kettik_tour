@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kettik_diplom/shared/size_config.dart';
 
 /// Contains useful functions to reduce boilerplate code
 class UIHelper {
@@ -29,7 +30,7 @@ class UIHelper {
 
   /// Returns a vertical space equal to the [height] supplied
   static Widget verticalSpace(double height) {
-    return Container(height: height);
+    return Container(height: getProportionateScreenHeight(height));
   }
 
   /// Returns a vertical space with height set to [_HorizontalSpaceSmall]
@@ -49,7 +50,7 @@ class UIHelper {
 
   /// Returns a vertical space equal to the [width] supplied
   static Widget horizontalSpace(double width) {
-    return Container(width: width);
+    return Container(width: getProportionateScreenWidth(width));
   }
 
   static Widget defaultButtonBottom() {
